@@ -106,6 +106,7 @@ window.addEventListener('load', () => {
     init();
 });
 function langue(langueOff, langueOn) {
+    console.log('Langue works')
     if (langueOff.classList.contains('currentLang') && langueOn.innerHTML == 'he') {
         console.log('he click')
         afficher(he_txt, nb_he);
