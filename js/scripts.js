@@ -138,6 +138,7 @@ function cacher(txt, nb) {
     }
 }
 function init() {
+    console.log('init works')
     if (currentlang === 'he') {
         console.log(currentlang);
         if (!hebraw.classList.contains('currentLang')) {
