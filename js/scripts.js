@@ -106,7 +106,6 @@ window.addEventListener('load', () => {
     init();
 });
 function langue(langueOff, langueOn) {
-    console.log('Langue works')
     if (langueOff.classList.contains('currentLang') && langueOn.innerHTML == 'he') {
         console.log('he click')
         afficher(he_txt, nb_he);
@@ -127,11 +126,13 @@ function langue(langueOff, langueOn) {
     }
 }
 function afficher(txt, nb) {
+    console.log('afficher works')
     for (var i = 0; i < nb; i++) {
         txt[i].style.display = 'block';
     }
 }
 function cacher(txt, nb) {
+    console.log('cacher works')
     for (var i = 0; i < nb; i++) {
         txt[i].style.display = 'none';
     }
