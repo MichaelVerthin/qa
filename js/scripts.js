@@ -110,13 +110,16 @@ english.addEventListener('click', function () {
     console.log('English clicked');
     afficher(en_txt, nb_en);
     cacher(he_txt, nb_he);
+    langue(hebraw, english);
 });
 
 hebraw.addEventListener('click', function () {
     console.log('Hebrew clicked');
     afficher(he_txt, nb_he);
     cacher(en_txt, nb_en);
+    langue(english, hebraw);
 });
+
 
 
 window.addEventListener('load', () => {
