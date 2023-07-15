@@ -95,13 +95,13 @@ function bgcolor(colorOff, colorOn) {
     }
 }
 
-english.addEventListener('click', function () {
-    langue(hebraw, english);
-}, false);
+// english.addEventListener('click', function () {
+//     langue(hebraw, english);
+// }, false);
 
-hebraw.addEventListener('click', function () {
-    langue(english, hebraw);
-}, false);
+// hebraw.addEventListener('click', function () {
+//     langue(english, hebraw);
+// }, false);
 
 var english = document.getElementById('en_click');
 var hebraw = document.getElementById('he_click');
@@ -127,7 +127,7 @@ window.addEventListener('load', () => {
 });
 function langue(langueOff, langueOn) {
     if (langueOff.classList.contains('currentLang') && langueOn.innerHTML == 'he') {
-        console.log('he click')
+        console.log('langue he click')
         afficher(he_txt, nb_he);
         cacher(en_txt, nb_en);
         hebraw.classList.toggle('currentLang');
@@ -136,7 +136,7 @@ function langue(langueOff, langueOn) {
         localStorage.setItem('data-lang', 'he');
     }
     else if (langueOff.classList.contains('currentLang') && langueOn.innerHTML == 'en') {
-        console.log('en click')
+        console.log('langue en click')
         afficher(en_txt, nb_en);
         cacher(he_txt, nb_he);
         hebraw.classList.toggle('currentLang');
