@@ -107,14 +107,17 @@ var english = document.getElementById('en_click');
 var hebraw = document.getElementById('he_click');
 
 english.addEventListener('click', function () {
-    // Logic for handling the 'en' click
     console.log('English clicked');
+    afficher(en_txt, nb_en);
+    cacher(he_txt, nb_he);
 });
 
 hebraw.addEventListener('click', function () {
-    // Logic for handling the 'he' click
     console.log('Hebrew clicked');
+    afficher(he_txt, nb_he);
+    cacher(en_txt, nb_en);
 });
+
 
 window.addEventListener('load', () => {
     init();
