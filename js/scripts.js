@@ -123,13 +123,7 @@ hebraw.addEventListener('click', function () {
     langue(english, hebraw);
     document.documentElement.setAttribute('data-lang', 'he');
 });
-document.addEventListener('DOMContentLoaded', function () {
-    init();
-});
 
-window.addEventListener('load', () => {
-    init();
-});
 function langue(langueOff, langueOn) {
     if (langueOff.classList.contains('currentLang') && langueOn.innerHTML == 'he') {
         console.log('langue he click')
@@ -201,5 +195,12 @@ function initcolor() {
         bgcolor(dark, light);
     }
 }
+document.addEventListener('DOMContentLoaded', function () {
+    init();
+});
+
+window.addEventListener('load', () => {
+    init();
+});
 initcolor();
 
