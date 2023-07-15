@@ -111,6 +111,8 @@ english.addEventListener('click', function () {
     afficher(en_txt, nb_en);
     cacher(he_txt, nb_he);
     setLanguage('en');
+    langue(hebraw, english);
+    document.documentElement.setAttribute('data-lang', 'en');
 });
 
 hebraw.addEventListener('click', function () {
@@ -118,6 +120,8 @@ hebraw.addEventListener('click', function () {
     afficher(he_txt, nb_he);
     cacher(en_txt, nb_en);
     setLanguage('he');
+    langue(english, hebraw);
+    document.documentElement.setAttribute('data-lang', 'he');
 });
 document.addEventListener('DOMContentLoaded', function () {
     init();
