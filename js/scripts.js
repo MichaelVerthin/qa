@@ -110,17 +110,15 @@ english.addEventListener('click', function () {
     console.log('English clicked');
     afficher(en_txt, nb_en);
     cacher(he_txt, nb_he);
-    langue(hebraw, english);
+    setLanguage('en');
 });
 
 hebraw.addEventListener('click', function () {
     console.log('Hebrew clicked');
     afficher(he_txt, nb_he);
     cacher(en_txt, nb_en);
-    langue(english, hebraw);
+    setLanguage('he');
 });
-
-
 
 window.addEventListener('load', () => {
     init();
@@ -157,29 +155,33 @@ function cacher(txt, nb) {
         txt[i].style.display = 'none';
     }
 }
+
+function setLanguage(lang) {
+    var url = new URL(window.location.href);
+    url.searchParams.set('lang', lang);
+    window.history.replaceState({}, '', url);
+}
+
+
 function init() {
-    console.log('init works')
-    if (currentlang === 'he') {
-        console.log(currentlang);
-        if (!hebraw.classList.contains('currentLang')) {
-            hebraw.classList.toggle('currentLang');
-        }
+    var url = new URL(window.location.href);
+    var lang = url.searchParams.get('lang');
+
+    if (lang === 'he') {
+        console.log('Language: Hebrew');
         afficher(he_txt, nb_he);
         cacher(en_txt, nb_en);
-        document.documentElement.setAttribute('data-lang', 'he');
-        localStorage.setItem('data-lang', 'he');
-    }
-    else if (currentlang === 'en') {
-        console.log(currentlang);
-        if (!english.classList.contains('currentLang')) {
-            english.classList.toggle('currentLang');
-        }
+        hebraw.classList.add('currentLang');
+        english.classList.remove('currentLang');
+    } else {
+        console.log('Language: English');
         afficher(en_txt, nb_en);
         cacher(he_txt, nb_he);
-        document.documentElement.setAttribute('data-lang', 'en');
-        localStorage.setItem('data-lang', 'en');
+        english.classList.add('currentLang');
+        hebraw.classList.remove('currentLang');
     }
 }
+
 function initcolor() {
     if (currentTheme) {
         document.documentElement.setAttribute('data-theme', currentTheme);
