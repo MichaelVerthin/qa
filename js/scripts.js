@@ -119,6 +119,9 @@ hebraw.addEventListener('click', function () {
     cacher(en_txt, nb_en);
     setLanguage('he');
 });
+document.addEventListener('DOMContentLoaded', function () {
+    init();
+});
 
 window.addEventListener('load', () => {
     init();
