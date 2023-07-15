@@ -102,6 +102,20 @@ english.addEventListener('click', function () {
 hebraw.addEventListener('click', function () {
     langue(english, hebraw);
 }, false);
+
+var english = document.getElementById('en_click');
+var hebraw = document.getElementById('he_click');
+
+english.addEventListener('click', function () {
+    // Logic for handling the 'en' click
+    console.log('English clicked');
+});
+
+hebraw.addEventListener('click', function () {
+    // Logic for handling the 'he' click
+    console.log('Hebrew clicked');
+});
+
 window.addEventListener('load', () => {
     init();
 });
