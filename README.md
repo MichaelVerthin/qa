@@ -2,7 +2,8 @@
 
 <h1 align="center">QA Website Showcase</h1>
 <h3 align="center">This website showcases my diverse QA projects and skills through an interactive and informative platform.</h3>
-<h3 align="center">QA Website: https://michaelverthin.github.io/qa</h3>
+<h3 align="center">I encourage you to explore this website to delve deeper into my QA expertise and the projects that define my skills.</h3>
+<h3 align="center">https://michaelverthin.github.io/qa</h3>
 </div>
 
 ## Built from scratch using HTML, CSS, and JavaScript, this project demonstrates:
@@ -12,7 +13,13 @@
 - UI/UX Design: I focused on user experience for seamless navigation and information presentation, allowing you to explore my skills and projects with ease.
 - <b>Project Management:</b> I planned, designed, developed, and deployed the website within a set timeframe, showcasing my ability to manage projects effectively.
 
-## I encourage you to explore this website to delve deeper into my QA expertise and the projects that define my skills.
+## 📊 Used Languages
+
+<div align="center">
+  
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=MichaelVerthin&layout=compact&langs_count=8&theme=calm_pink)](https://github.com/MichaelVerthin/qa)
+
+</div>
 
 ## Additionally, this project served as a valuable learning experience, allowing me to:
 
