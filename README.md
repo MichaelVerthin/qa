@@ -13,7 +13,7 @@
 - <b>UI/UX Design:</b> I focused on user experience for seamless navigation and information presentation, allowing you to explore my skills and projects with ease
 - <b>Project Management:</b> I planned, designed, developed, and deployed the website within a set timeframe, showcasing my ability to manage projects effectively
 
-## This project served as a valuable learning experience, allowing me to:
+- ![#f03c15]## This project served as a valuable learning experience, allowing me to:
 
 - Strengthen my front-end development skills
 - Gain practical experience in deploying a website using GitHub Pages
