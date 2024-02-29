@@ -24,8 +24,9 @@
 ## 📈 GitHub Stats
 
 <div align="center">
-  
-[![Readme Card](https://github-readme-stats.vercel.app/api/pin?username=anuraghazra&repo=github-readme-stats&theme=calm_pink&repo=github-readme-stats)](https://github.com/MichaelVerthin/github-readme-stats)
+
+[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=anuraghazra&repo=github-readme-stats)](https://github.com/anuraghazra/github-readme-stats)
+
 </div>
 
 ## 📫 Let's Connect
