@@ -26,7 +26,6 @@
 <div align="center">
 
 [![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=MichaelVerthin&repo=qa&show_owner=true&theme=calm_pink)](https://github.com/MichaelVerthin/qa)
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=MichaelVerthin&repo=qa&layout=compact&langs_count=3&theme=calm_pink)](https://github.com/MichaelVerthin/qa)
 
 </div>
 
