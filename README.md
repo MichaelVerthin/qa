@@ -25,7 +25,7 @@
 
 <div align="center">
 
-[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=anuraghazra&repo=github-readme-stats)](https://github.com/MichaelVerthin/qa)
+[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=MichaelVerthin&repo=qa&show_owner=true&theme=calm_pink)](https://github.com/MichaelVerthin/qa)
 
 </div>
 
