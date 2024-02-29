@@ -25,8 +25,7 @@
 
 <div align="center">
   
-[![GitHub Stats](https://github-readme-stats.vercel.app/api?username=MichaelVerthin&count_private=true&show_icons=true&theme=calm_pink)](https://github.com/MichaelVerthin/qa)
-[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=MichaelVerthin&count_private=true&show_icons=true&theme=calm_pink&repo=github-readme-stats)](https://github.com/MichaelVerthin/qa/github-readme-stats)
+[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=MichaelVerthin&count_private=true&show_icons=true&theme=calm_pink&repo=github-readme-stats)](https://github.com/MichaelVerthin/qa)
 </div>
 
 ## 📫 Let's Connect
