@@ -13,14 +13,6 @@
 - UI/UX Design: I focused on user experience for seamless navigation and information presentation, allowing you to explore my skills and projects with ease.
 - <b>Project Management:</b> I planned, designed, developed, and deployed the website within a set timeframe, showcasing my ability to manage projects effectively.
 
-## 📊 Used Languages
-
-<div align="center">
-  
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=MichaelVerthin&layout=compact&langs_count=8&theme=calm_pink)](https://github.com/MichaelVerthin/qa)
-
-</div>
-
 ## Additionally, this project served as a valuable learning experience, allowing me to:
 
 - Strengthen my front-end development skills.
@@ -34,7 +26,7 @@
 <div align="center">
   
 [![GitHub Stats](https://github-readme-stats.vercel.app/api?username=MichaelVerthin&count_private=true&show_icons=true&theme=calm_pink)](https://github.com/MichaelVerthin/qa)
-
+[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=MichaelVerthin&count_private=true&show_icons=true&theme=calm_pink&repo=github-readme-stats)](https://github.com/MichaelVerthin/qa/github-readme-stats)
 </div>
 
 ## 📫 Let's Connect
