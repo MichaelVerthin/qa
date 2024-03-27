@@ -8,7 +8,6 @@
 
 ## $\color{rgb(255,127,39)}\large{\textsf{Built using HTML, CSS, and JavaScript, this project demonstrates:}}$
 
-
 - <b>Proficiency in Quality Assurance:</b> I utilized various testing methodologies and tools, visualizing their application on specific projects showcased on the website
 - <b>Web Development Skills:</b> I learned and implemented front-end development techniques, ensuring a clean, functional, and responsive website
 - <b>UI/UX Design:</b> I focused on user experience for seamless navigation and information presentation, allowing you to explore my skills and projects with ease
@@ -21,20 +20,3 @@
 - Enhance my UI/UX design principles for creating user-friendly interfaces
 - I hope you enjoy exploring my QA Website Showcase!
 
-## $\color{rgb(255,127,39)}\large{\textsf{📈 GitHub Stats}}$
-
-<div align="center">
-
-[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=MichaelVerthin&repo=qa&show_owner=true&theme=calm_pink)](https://github.com/MichaelVerthin/qa)
-
-</div>
-
-## $\color{rgb(255,127,39)}\large{\textsf{📫 Let's Connect}}$
-
-<div align="center">
-  
-[![LinkedIn](https://img.shields.io/badge/-LinkedIn-0077B5?style=for-the-badge&logo=LinkedIn&logoColor=white)](https://www.linkedin.com/in/michael-verthin/)
-[![Twitter](https://img.shields.io/badge/-Twitter-1DA1F2?style=for-the-badge&logo=Twitter&logoColor=white)](https://twitter.com/MishaSpren)
-[![Website](https://img.shields.io/badge/My%20Website-%23FF6E32?style=for-the-badge&logo=google-chrome&logoColor=white)](https://michaelverthin.github.io/qa)
-
-</div>
